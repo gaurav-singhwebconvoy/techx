@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## SETUP
+
+-   git init
+-   git checkout -b main
+-   git remote rm origin
+-   git remote add origin https://"infosinghgaurav94%40gmail.com":"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"@github.com/gaurav-singhwebconvoy/techx.git
+-   git push --set-upstream origin main
+-   git pull origin main --allow-unrelated-histories
+-   git add .
+-   git commit -m ""
+-   git push -u origin main
+
 ## Available Scripts
 
 In the project directory, you can run:
