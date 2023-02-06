@@ -92,7 +92,7 @@ export const About = (props) => {
                             {/* <!-- col --> */}
                             <div className="col-lg-6 pr-xl-3 mb-lg-0 mb-2">
                                 {/* <!-- side-img --> */}
-                                <img src="/assets/images/my.jpeg" className="side-img lazy img-fluid" alt="Image" style={{width:"300px !important"}} />
+                                <img src="/assets/images/my.jpeg" className="side-img lazy img-fluid" alt="Image" style={{ width: "300px", importance: "important" }} />
                             </div>
                             {/* <!-- col --> */}
                             <div className="col-lg-6 pl-xl-3">
@@ -118,7 +118,7 @@ export const About = (props) => {
                             {/* <!-- col --> */}
                             <div className="col-lg-6 pl-xl-3 mb-lg-0 mb-2 order-lg-2 order-1">
                                 {/* <!-- side-img --> */}
-                                <img src="/assets/images/gaurav.png" className="side-img lazy img-fluid" alt="Image" style={{width:"400px !important"}} />
+                                <img src="/assets/images/gaurav.png" className="side-img lazy img-fluid" alt="Image" style={{ width: "400px", importance: "important" }} />
                             </div>
                         </div>
                         {/* <!-- row --> */}
@@ -184,7 +184,7 @@ export const About = (props) => {
                                 {/* <!-- item --> */}
                                 <div className="item">
                                     {/* <!-- avatar --> */}
-                                    <img src="/assets/images/my.jpeg" className="side-img lazy img-fluid" alt="Image" style={{height:"200px !important"}} />
+                                    <img src="/assets/images/my.jpeg" className="side-img lazy img-fluid" alt="Image" style={{ width: "200px", importance: "important" }} />
                                     {/* <!-- name --> */}
                                     <h3 className="name">HH. Abdulkarim</h3>
                                     {/* <!-- job --> */}
@@ -196,7 +196,7 @@ export const About = (props) => {
                                 {/* <!-- item --> */}
                                 <div className="item">
                                     {/* <!-- avatar --> */}
-                                    <img src="/assets/images/gaurav.png" className="side-img lazy img-fluid" alt="Image" style={{height:"200px !important"}} />
+                                    <img src="/assets/images/gaurav.png" className="side-img lazy img-fluid" alt="Image" style={{ width: "200px", importance: "important" }} />
                                     {/* <!-- name --> */}
                                     <h3 className="name">James Gary</h3>
                                     {/* <!-- job --> */}
@@ -207,7 +207,7 @@ export const About = (props) => {
                                 {/* <!-- item --> */}
                                 <div className="item">
                                     {/* <!-- avatar --> */}
-                                    <img src="/assets/images/harpreet.jfif" className="media lazy img-fluid" alt="Image" style={{height:"200px !important"}} />
+                                    <img src="/assets/images/harpreet.jfif" className="media lazy img-fluid" alt="Image" style={{ width: "200px", importance: "important" }} />
                                     {/* <!-- name --> */}
                                     <h3 className="name">Richard Kevin</h3>
                                     {/* <!-- job --> */}

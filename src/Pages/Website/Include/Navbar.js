@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useHistory, withRouter } from "react-router-dom";
+import { Link, useHistory, useLocation, withRouter } from "react-router-dom";
 import ServicesDropdown from "../../../Components/ServicesDropdown";
 import SideBox from "../../../Components/SideBox";
 import LanguageSelector from "./LanguageSelector";
@@ -33,6 +33,25 @@ const Navbar = (props) => {
         setActiveFilter(filter);
     };
 
+    const [linksOpen, setLinksOpen] = useState(false);
+
+    const handleOpenLinks = () => {
+        setLinksOpen(true);
+    };
+
+    const handleCloseLinks = () => {
+        setLinksOpen(false);
+    };
+    const location = useLocation();
+
+    const [previousLocation, setPreviousLocation] = useState('');
+    useEffect(() => {
+        if (previousLocation !== location.pathname) {
+          setLinksOpen(false);
+        }
+        setPreviousLocation(location.pathname);
+      }, [location, previousLocation]);
+
     return (
         <>
             {/* <!-- Navbar --> */}
@@ -42,7 +61,7 @@ const Navbar = (props) => {
                     {/* <!-- nav-top --> */}
                     <div className="nav-top d-flex align-items-center">
                         {/* <!-- menu-icon --> */}
-                        <div className="menu-icon" id="open-links-btn">
+                        <div className="menu-icon" id="open-links-btn"  onClick={handleOpenLinks}>
                             <img src="/assets/images/templates/navbar/hamburger.png" className="menu-icon img-fluid" alt="TechX" />
                         </div>
                         {/* <!-- brand --> */}
@@ -112,9 +131,9 @@ const Navbar = (props) => {
                             </a>
                         </div>
                         {/* <!-- links --> */}
-                        <div className="links d-xl-flex align-items-center ml-auto" id="theme-navbar-links">
+                        <div className={`links d-xl-flex align-items-center ml-auto ${linksOpen ? 'open-links': ''}`} id="theme-navbar-links">
                             {/* <!-- close-links-btn --> */}
-                            <div className="close-links-btn" id="close-links-btn">
+                            <div className="close-links-btn" id="close-links-btn" onClick={handleCloseLinks}>
                                 <img src="/assets/images/templates/navbar/close.png" className="img-fluid" alt="Close" />
                             </div>
                             {/* <!-- link --> */}

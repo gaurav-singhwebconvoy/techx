@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const ServicesDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,6 +7,16 @@ const ServicesDropdown = () => {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+
+  const location = useLocation();
+
+    const [previousLocation, setPreviousLocation] = useState('');
+    useEffect(() => {
+        if (previousLocation !== location.pathname) {
+          setIsOpen(false);
+        }
+        setPreviousLocation(location.pathname);
+      }, [location, previousLocation]);
 
   return (
     <div className={`link has-dropdown-menu ${isOpen ? 'open-dropdown-menu' : ''}`}>
