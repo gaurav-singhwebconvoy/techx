@@ -145,7 +145,7 @@ header {
   /* Section I */
   
   /* domain-box */
-  #domains .se-i .domain-box {
+  .se-i-domains .domain-box {
     position: relative;
     background-color: var(--dark);
     background-image: url(/public/assets/images/pages/domains/shapes-01.png);
@@ -156,11 +156,11 @@ header {
     border-radius: 12px;
     overflow: hidden;
   }
-  .light-theme #domains .se-i .domain-box {
+  .light-theme .se-i-domains .domain-box {
     background-color: var(--light);
     border: 1px solid var(--border);
   }
-  #domains .se-i .domain-box::before {
+  .se-i-domains .domain-box::before {
     position: absolute;
     content: '';
     left: 0;
@@ -170,78 +170,78 @@ header {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .4) 100%);
     z-index: 1;
   }
-  .light-theme #domains .se-i .domain-box::before {
+  .light-theme .se-i-domains .domain-box::before {
     display: none;
   }
-  #domains .se-i .domain-box > * {
+  .se-i-domains .domain-box > * {
     position: relative;
     z-index: 2;
   }
-  #domains .se-i .row > div:nth-child(2) .domain-box {
+  .se-i-domains .row > div:nth-child(2) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-02.png);
   }
-  #domains .se-i .row > div:nth-child(3) .domain-box {
+  .se-i-domains .row > div:nth-child(3) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-03.png);
   }
-  #domains .se-i .row > div:nth-child(4) .domain-box {
+  .se-i-domains .row > div:nth-child(4) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-04.png);
   }
-  #domains .se-i .row > div:nth-child(5) .domain-box {
+  .se-i-domains .row > div:nth-child(5) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-05.png);
   }
-  #domains .se-i .row > div:nth-child(6) .domain-box {
+  .se-i-domains .row > div:nth-child(6) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-06.png);
   }
-  #domains .se-i .row > div:nth-child(7) .domain-box {
+  .se-i-domains .row > div:nth-child(7) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-07.png);
   }
-  #domains .se-i .row > div:nth-child(8) .domain-box {
+  .se-i-domains .row > div:nth-child(8) .domain-box {
     background-image: url(/public/assets/images/pages/domains/shapes-08.png);
   }
   
   /* box-name */
-  #domains .se-i .domain-box .box-name {
+  .se-i-domains .domain-box .box-name {
     font-size: 36px;
     font-family: var(--primary-font);
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 15px;
   }
-  .light-theme #domains .se-i .domain-box .box-name {
+  .light-theme .se-i-domains .domain-box .box-name {
     color: var(--dark);
   }
-  #domains .se-i .domain-box .box-name span {
+  .se-i-domains .domain-box .box-name span {
     color: var(--gold);
   }
   
   /* box-para */
-  #domains .se-i .domain-box .box-para {
+  .se-i-domains .domain-box .box-para {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-gray);
   }
   
   /* price */
-  #domains .se-i .domain-box .price {
+  .se-i-domains .domain-box .price {
     margin-top: 40px;
   }
-  #domains .se-i .domain-box .price .sub {
+  .se-i-domains .domain-box .price .sub {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-gray);
   }
-  #domains .se-i .domain-box .price .title-3 {
+  .se-i-domains .domain-box .price .title-3 {
     font-size: 30px;
     font-family: var(--primary-font);
     font-weight: 700;
     color: #ffffff;
   }
-  .light-theme #domains .se-i .domain-box .price .title-3 {
+  .light-theme .se-i-domains .domain-box .price .title-3 {
     color: var(--dark);
   }
   
   /* search-btn */
-  #domains .se-i .domain-box .search-btn {
+  .se-i-domains .domain-box .search-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +250,7 @@ header {
     border-radius: 50%;
     transition: box-shadow .20s ease, background-color .20s ease, border-color .20s ease, color .20s ease;
   }
-  #domains .se-i .domain-box .search-btn img {
+  .se-i-domains .domain-box .search-btn img {
     width: 20px;
     filter: invert(1);
   }
@@ -259,35 +259,35 @@ header {
   /* Section II */
   
   /* box-icon */
-  .se-ii .box .box-icon {
+  .se-ii-domains .box .box-icon {
     height: 58px;
     margin-bottom: 25px;
   }
-  .se-ii .box .box-icon img {
+  .se-ii-domains .box .box-icon img {
     width: 48px;
   }
-  .se-ii .box .box-icon img.l-img {
+  .se-ii-domains .box .box-icon img.l-img {
     display: none !important;
   }
-  .light-theme .se-ii .box .box-icon img.l-img {
+  .light-theme .se-ii-domains .box .box-icon img.l-img {
     display: block !important;
   }
-  .light-theme .se-ii .box .box-icon img.d-img {
+  .light-theme .se-ii-domains .box .box-icon img.d-img {
     display: none !important;
   }
   
   /* box-title & box-para */
-  .se-ii .box .box-title {
+  .se-ii-domains .box .box-title {
     font-size: 18px;
     font-family: var(--primary-font);
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 10px;
   }
-  .light-theme .se-ii .box .box-title {
+  .light-theme .se-ii-domains .box .box-title {
     color: var(--dark);
   }
-  .se-ii .box .box-para {
+  .se-ii-domains .box .box-para {
     font-size: 15px;
     font-weight: 500;
     color: var(--text-gray);
@@ -297,28 +297,28 @@ header {
   /* Section III */
   
   /* box */
-  .se-iii .box {
+  .se-iii-domains .box {
     background-color: var(--semi-dark);
     border-radius: 8px;
     padding: 35px 30px 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
     transition: all .20s ease;
   }
-  .light-theme .se-iii .box {
+  .light-theme .se-iii-domains .box {
     background-color: #fff;
     border: 1px solid var(--border);
     box-shadow: none !important;
   }
-  .se-iii .box:hover {
+  .se-iii-domains .box:hover {
     box-shadow: 0 10px 45px 0 rgba(0,0,0,.2);
     background-color: var(--semi-dark-2);
   }
-  .light-theme .se-iii .box:hover {
+  .light-theme .se-iii-domains .box:hover {
     background-color: var(--light);
   }
   
   /* box-link */
-  .se-iii .box-link {
+  .se-iii-domains .box-link {
     position: absolute;
     left: 0;
     right: 0;
@@ -328,7 +328,7 @@ header {
   }
   
   /* icon */
-  .se-iii .box .icon {
+  .se-iii-domains .box .icon {
     position: relative;
     width: 70px;
     height: 70px;
@@ -339,7 +339,7 @@ header {
     margin-bottom: 30px;
     overflow: hidden;
   }
-  .se-iii .box .icon::before {
+  .se-iii-domains .box .icon::before {
     position: absolute;
     content: '';
     left: 0;
@@ -349,41 +349,41 @@ header {
     background-color: var(--primary);
     opacity: .1;
   }
-  .se-iii .box.color-1 .icon::before {
+  .se-iii-domains .box.color-1 .icon::before {
     background-color: #26C6DA;
   }
-  .se-iii .box.color-2 .icon::before {
+  .se-iii-domains .box.color-2 .icon::before {
     background-color: #FC573B;
   }
-  .se-iii .box.color-3 .icon::before {
+  .se-iii-domains .box.color-3 .icon::before {
     background-color: #FFD200;
   }
-  .se-iii .box.color-4 .icon::before {
+  .se-iii-domains .box.color-4 .icon::before {
     background-color: #BD63F9;
   }
-  .se-iii .box.color-5 .icon::before {
+  .se-iii-domains .box.color-5 .icon::before {
     background-color: #00FFB7;
   }
-  .se-iii .box.color-6 .icon::before {
+  .se-iii-domains .box.color-6 .icon::before {
     background-color: #FE9801;
   }
-  .se-iii .box .icon img {
+  .se-iii-domains .box .icon img {
     width: 34px;
   }
   
   /* box-title */
-  .se-iii .box-title {
+  .se-iii-domains .box-title {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
   }
-  .light-theme .se-iii .box-title {
+  .light-theme .se-iii-domains .box-title {
     color: var(--dark);
   }
   
   /* box-para */
-  .se-iii .box-para {
+  .se-iii-domains .box-para {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-gray);
@@ -399,15 +399,15 @@ header {
   }
   
   /* arrow */
-  .se-iii .arrow {
+  .se-iii-domains .arrow {
     margin-top: 20px;
   }
-  .se-iii .arrow img {
+  .se-iii-domains .arrow img {
     width: 24px;
     filter: contrast(0);
     transition: all .15s ease;
   }
-  .se-iii .box:hover .arrow img {
+  .se-iii-domains .box:hover .arrow img {
     filter: contrast(100%);
   }
   /* ------------------------------- */

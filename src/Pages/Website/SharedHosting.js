@@ -18,7 +18,7 @@ export const SharedHosting = (props) => {
             <SharedHostingHeader />
 
             {/* <!-- Section I --> */}
-            <div className="se-i py-90 bg-2" id="se-i">
+            <div className="se-i-shared-hosting py-90 bg-2" id="se-i">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head mb-5">

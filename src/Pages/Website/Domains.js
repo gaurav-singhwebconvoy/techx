@@ -17,7 +17,7 @@ export const Domains = (props) => {
 
             <DomainHeader />
             {/* <!-- Section I --> */}
-            <div className="se-i py-120-90 bg-2">
+            <div className="se-i-domains py-120-90 bg-2">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head mb-5">
@@ -225,7 +225,7 @@ export const Domains = (props) => {
             </div>
 
             {/* <!-- Section II --> */}
-            <div className="se-ii py-120-75">
+            <div className="se-ii-domains py-120-75">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head mb-5">
@@ -361,7 +361,7 @@ export const Domains = (props) => {
             </div>
 
             {/* <!-- Section III --> */}
-            <div className="se-iii py-120 bg-2">
+            <div className="se-iii-domains py-120 bg-2">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head mb-5">

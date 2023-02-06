@@ -93,7 +93,7 @@
   /*------------------------------------------------------*/
   
   /* plan */
-  .se-i .plans .plan {
+  .se-i-shared-hosting .plans .plan {
     position: relative;
     padding: 40px;
     background-color: var(--dark);
@@ -102,13 +102,13 @@
     height: 100%;
     z-index: 2
   }
-  .light-theme .se-i .plans .plan {
+  .light-theme .se-i-shared-hosting .plans .plan {
     background-color: var(--light);
     border-color: var(--border);
   }
   
   /* popular-box */
-  .se-i .plans .plan .popular-box {
+  .se-i-shared-hosting .plans .plan .popular-box {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -123,10 +123,10 @@
     font-weight: 600;
     color: #ffffff;
   }
-  .light-theme .se-i .plans .plan .popular-box {
+  .light-theme .se-i-shared-hosting .plans .plan .popular-box {
     background-color: #fff;
   }
-  .se-i .plans .plan .popular-box::before {
+  .se-i-shared-hosting .plans .plan .popular-box::before {
     position: absolute;
     content: '';
     left: -4px;
@@ -146,16 +146,16 @@
     border-radius: 50%;
     z-index: -1;
   }
-  .se-i .plans .plan .popular-box img {
+  .se-i-shared-hosting .plans .plan .popular-box img {
     width: 17px;
     filter: invert(1);
   }
-  .light-theme .se-i .plans .plan .popular-box img {
+  .light-theme .se-i-shared-hosting .plans .plan .popular-box img {
     filter: invert(0);
   }
   
   /* plan-icon */
-  .se-i .plans .plan-icon {
+  .se-i-shared-hosting .plans .plan-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,24 +167,24 @@
   }
   
   /* plan-head */
-  .se-i .plans .plan-head {
+  .se-i-shared-hosting .plans .plan-head {
     margin-bottom: 45px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
-  .light-theme .se-i .plans .plan-head {
+  .light-theme .se-i-shared-hosting .plans .plan-head {
     border-color: var(--border);
   }
-  .se-i .plans .plan-name {
+  .se-i-shared-hosting .plans .plan-name {
     font-size: 20px;
     font-family: var(--primary-font);
     font-weight: 600;
     color: #ffffff;
   }
-  .light-theme .se-i .plans .plan-name {
+  .light-theme .se-i-shared-hosting .plans .plan-name {
     color: var(--dark);
   }
-  .se-i .plans .plan-para {
+  .se-i-shared-hosting .plans .plan-para {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-gray);
@@ -192,43 +192,43 @@
   }
   
   /* plan-price */
-  .se-i .plans .plan-price {
+  .se-i-shared-hosting .plans .plan-price {
     margin-bottom: 20px
   }
-  .se-i .plans .plan-price .price {
+  .se-i-shared-hosting .plans .plan-price .price {
     font-size: 30px;
     font-family: var(--primary-font);
     font-weight: 700;
     color: #ffffff;
   }
-  .light-theme .se-i .plans .plan-price .price {  
+  .light-theme .se-i-shared-hosting .plans .plan-price .price {  
     color: var(--dark);
   }
-  .se-i .plans .plan-price .price-comment {
+  .se-i-shared-hosting .plans .plan-price .price-comment {
     font-size: 14px;
     font-weight: 500;
     color: var(--text-gray);
   }
   
   /* actions */
-  .se-i .plans .actions {
+  .se-i-shared-hosting .plans .actions {
     padding-bottom: 10px
   }
   
   /* group */
-  .se-i .plans .group {
+  .se-i-shared-hosting .plans .group {
     margin-top: 45px;
   }
-  .se-i .plans .group .title-4 {
+  .se-i-shared-hosting .plans .group .title-4 {
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 20px
   }
-  .light-theme .se-i .plans .group .title-4 {
+  .light-theme .se-i-shared-hosting .plans .group .title-4 {
     color: var(--dark);
   }
-  .se-i .plans .group .list li {
+  .se-i-shared-hosting .plans .group .list li {
     position: relative;
     display: flex;
     align-items: center;
@@ -238,23 +238,23 @@
     color: var(--text-gray);
     padding-right: 26px;
   }
-  .se-i .plans .group .list li:not(last-of-type) {
+  .se-i-shared-hosting .plans .group .list li:not(last-of-type) {
     margin-bottom: 10px
   }
-  .se-i .plans .group .list li img {
+  .se-i-shared-hosting .plans .group .list li img {
     margin-right: 10px;
     width: 16px
   }
   
   /* float-box */
-  .se-i .plans .group .list li .float-box {
+  .se-i-shared-hosting .plans .group .list li .float-box {
     position: absolute;
     top: 2px;
     right: 0;
     width: 18px;
     height: 18px;
   }
-  .se-i .plans .group .list li .float-box::before {
+  .se-i-shared-hosting .plans .group .list li .float-box::before {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,13 +272,13 @@
     line-height: 1;
     transition: all .15s ease-in-out;
   }
-  .light-theme .se-i .plans .group .list li .float-box::before {
+  .light-theme .se-i-shared-hosting .plans .group .list li .float-box::before {
     background-color: rgba(0, 0, 0, .1);
   }
-  .se-i .plans .group .list li .float-box:hover::before {
+  .se-i-shared-hosting .plans .group .list li .float-box:hover::before {
     background-color: rgba(0, 0, 0, .2);
   }
-  .se-i .plans .group .list li .float-box::after {
+  .se-i-shared-hosting .plans .group .list li .float-box::after {
     position: absolute;
     content: attr(data-text);
     top: 50%;
@@ -300,27 +300,27 @@
     opacity: 0;
     transition: all .15s ease-in-out;
   }
-  .light-theme .se-i .plans .group .list li .float-box::after {
+  .light-theme .se-i-shared-hosting .plans .group .list li .float-box::after {
     background-color: #fff;
     border: 1px solid var(--border);
     background-color: #FFFFFF;
     box-shadow: 0 2px 15px #dde5eb;
   }
-  .se-i .plans .group .list li .float-box:hover::after {
+  .se-i-shared-hosting .plans .group .list li .float-box:hover::after {
     visibility: visible;
     opacity: 1;
   }
   
   /* se-footer */
-  .se-i .se-footer .line {
+  .se-i-shared-hosting .se-footer .line {
     margin: 6px 12px;
   }
-  .se-i .se-footer .line .icon {
+  .se-i-shared-hosting .se-footer .line .icon {
     min-width: 16px;
     width: 16px;
     margin-right: 10px;
   }
-  .se-i .se-footer .line .text {
+  .se-i-shared-hosting .se-footer .line .text {
     font-size: 14px;
     font-family: var(--secondary-font);
     font-weight: 500;

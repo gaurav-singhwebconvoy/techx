@@ -68,7 +68,7 @@ export const CyberSecurity = (props) => {
         <>
 
             {/* <!-- Section I --> */}
-            <div className="se-i py-120">
+            <div className="se-i-support py-120">
                 <div className="container">
                     {/* <!-- content --> */}
                     <div className="content">

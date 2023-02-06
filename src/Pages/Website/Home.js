@@ -19,7 +19,7 @@ export const Home = (props) => {
         <>
             <Header />
             {/* <!-- Section I --> */}
-            <div className="se-i text-lg-left text-center">
+            <div className="se-i-home text-lg-left text-center">
                 <div className="container">
                     {/* <!-- row --> */}
                     <div className="row">
@@ -63,7 +63,7 @@ export const Home = (props) => {
             </div>
 
             {/* <!-- Section II --> */}
-            <div className="se-ii bg-2">
+            <div className="se-ii-home bg-2">
                 <div className="container">
                     {/* <!-- row --> */}
                     <div className="row align-items-center">
@@ -138,7 +138,7 @@ export const Home = (props) => {
             </div>
 
             {/* <!-- Section III --> */}
-            <div className="se-iii py-90">
+            <div className="se-iii-home py-90">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head">
@@ -415,7 +415,7 @@ export const Home = (props) => {
             </div>
 
             {/* <!-- Section IV --> */}
-            <div className="se-iv py-90 bg-2">
+            <div className="se-iv-home py-90 bg-2">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head">
@@ -594,7 +594,7 @@ export const Home = (props) => {
             <VPSPlans/>
 
             {/* <!-- Section VI --> */}
-            <div className="se-vi py-90 bg-2">
+            <div className="se-vi-home py-90 bg-2">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head">

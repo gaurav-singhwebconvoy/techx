@@ -19,7 +19,7 @@ export const VPSHosting = (props) => {
             <VPSHeader />
 
             {/* <!-- Section I --> */}
-            <div className="se-i py-120 bg-2" id="se-i">
+            <div className="se-i-vps py-120 bg-2" id="se-i">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head mb-5">

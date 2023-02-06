@@ -13,7 +13,7 @@ export const Contact = (props) => {
     return (
         <>
             {/* <!-- Section I --> */}
-            <div className="se-i">
+            <div className="se-i-contact">
                 <div className="container">
                     {/* <!-- row --> */}
                     <div className="row">

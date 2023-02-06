@@ -19,7 +19,7 @@ export const DedicatedServer = (props) => {
             <DedicatedServerHeader />
 
             {/* <!-- Section I --> */}
-            <div className="se-i py-120" id="se-i">
+            <div className="se-i-dedicate-server py-120" id="se-i">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head mb-5">

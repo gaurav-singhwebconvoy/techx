@@ -12,7 +12,7 @@ export const About = (props) => {
         <>
 
             {/* <!-- Section I --> */}
-            <div className="se-i">
+            <div className="se-i-about">
                 <div className="container position-relative">
                     {/* <!-- se-head --> */}
                     <div className="se-head">
@@ -45,7 +45,7 @@ export const About = (props) => {
             </div>
 
             {/* <!-- Section II --> */}
-            <div className="se-ii">
+            <div className="se-ii-about">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head">
@@ -128,7 +128,7 @@ export const About = (props) => {
             </div>
 
             {/* <!-- Section III --> */}
-            <div className="se-iii">
+            <div className="se-iii-about">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head">
@@ -167,7 +167,7 @@ export const About = (props) => {
             </div>
 
             {/* <!-- Section IV --> */}
-            <div className="se-iv">
+            <div className="se-iv-about">
                 <div className="container">
                     {/* <!-- se-head --> */}
                     <div className="se-head">
