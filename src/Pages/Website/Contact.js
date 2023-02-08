@@ -51,8 +51,8 @@ export const Contact = (props) => {
                                                 <img src="/assets/images/pages/contact/icons/envelope.png" className="lazy img-fluid" alt="icon"/>
                                             </div>
                                             {/* <!-- text --> */}
-                                            <a href="mailto:Info@techx.live" className="text">Info@techx.live</a>
-                                            <a href="mailto:Support@techx.live" className="text">Support@techx.live</a>
+                                            <a href="mailto:info@techx.live" className="text">Info@techx.live</a>
+                                            <a href="mailto:support@techx.live" className="text">Support@techx.live</a>
                                             <p className="text">Mail Us 24/7</p>
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@ export const Contact = (props) => {
                                                 <img src="/assets/images/pages/contact/icons/phone-call.png" className="lazy img-fluid" alt="icon"/>
                                             </div>
                                             {/* <!-- text --> */}
-                                            <a href="#" className="text">+44 738-798-9128</a>
+                                            <a href="https://api.whatsapp.com/send?phone=447387788662" className="text">+44 738-778-8662</a>
                                             <p className="text">Contact Us 24/7</p>
                                         </div>
                                     </div>

@@ -65,10 +65,10 @@ const Navbar = (props) => {
                             <img src="/assets/images/templates/navbar/hamburger.png" className="menu-icon img-fluid" alt="TechX" />
                         </div>
                         {/* <!-- brand --> */}
-                        <a href="#" className="brand d-flex align-items-center">
+                        <Link to="/" className="brand d-flex align-items-center">
                             <img src="/assets/images/templates/navbar/logo-d.png" className="dt-img img-fluid" alt="TechX" />
                             <img src="/assets/images/templates/navbar/logo-l.png" className="lt-img img-fluid" alt="TechX" />
-                        </a>
+                        </Link>
                         {/* <!-- options --> */}
                         <div className="options d-md-flex d-none align-items-center justify-content-end ml-auto">
                             {/* <!-- c-link --> */}
@@ -125,7 +125,7 @@ const Navbar = (props) => {
                         {/* <!-- info --> */}
                         <div className="info d-flex align-items-center">
                             {/* <!-- item --> */}
-                            <a href="tel:0000" className="item">
+                            <a href="tel:+447387989128" className="item">
                                 <img src="/assets/images/icons/fill-font-icons/fi-sr-phone-call.svg" className="img-fluid" alt="Icon" />
                                 <span className="text">(+44) 738 798 9128</span>
                             </a>

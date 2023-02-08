@@ -4,6 +4,11 @@ const REACT_APP_NAME = process.env.REACT_APP_NAME;
 
 export const Footer = (props) => {
 
+    const [isFooterLinkOpen, setIsFooterLinkOpen] = useState('');
+
+    const openFooterLink = (footerLink) =>{
+        setIsFooterLinkOpen(footerLink);
+    };
 
     return (
         <>
@@ -24,7 +29,7 @@ export const Footer = (props) => {
                         {/* <!-- list-group --> */}
                         <div className="list-group">
                             {/* <!-- footer-list --> */}
-                            <ul className="footer-list list-unstyled">
+                            <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'About')? 'open-list' : ''}`} onClick={() => openFooterLink('About')}>
                                 <li className="list-title">About TechX</li>
                                 <li className="list-link"><Link to="/about">About Us</Link></li>
                                 <li className="list-link"><a href="#">Newsroom</a></li>
@@ -35,7 +40,7 @@ export const Footer = (props) => {
                                 <li className="list-link"><Link to="/terms">Legal</Link></li>
                             </ul>
                             {/* <!-- footer-list --> */}
-                            <ul className="footer-list list-unstyled">
+                            <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Help')? 'open-list' : ''}`} onClick={() => openFooterLink('Help')}>
                                 <li className="list-title">Help Center</li>
                                 <li className="list-link"><a href="knowledge-base.html">Help Center</a></li>
                                 <li className="list-link"><a href="#">Community</a></li>
@@ -45,7 +50,7 @@ export const Footer = (props) => {
                                 <li className="list-link"><a href="#">Resources</a></li>
                             </ul>
                             {/* <!-- footer-list --> */}
-                            <ul className="footer-list list-unstyled">
+                            <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Resources')? 'open-list' : ''}`} onClick={() => openFooterLink('Resources')}>
                                 <li className="list-title">Resources</li>
                                 <li className="list-link"><a href="#">Webmail</a></li>
                                 <li className="list-link"><a href="#">WHOIS</a></li>
@@ -56,21 +61,21 @@ export const Footer = (props) => {
                                 <li className="list-link"><a href="#">Redeem Code</a></li>
                             </ul>
                             {/* <!-- footer-list --> */}
-                            <ul className="footer-list list-unstyled">
+                            <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Partner')? 'open-list' : ''}`} onClick={() => openFooterLink('Partner')}>
                                 <li className="list-title">Partner Programs</li>
                                 <li className="list-link"><a href="#">Affiliates</a></li>
                                 <li className="list-link"><a href="#">Reseller Programs</a></li>
                                 <li className="list-link"><a href="#">TechX Pro</a></li>
                             </ul>
                             {/* <!-- footer-list --> */}
-                            <ul className="footer-list list-unstyled">
+                            <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Account')? 'open-list' : ''}`} onClick={() => openFooterLink('Account')}>
                                 <li className="list-title">Account</li>
                                 <li className="list-link"><a href="#">My Products</a></li>
                                 <li className="list-link"><a href="#">Renewals & Billing</a></li>
                                 <li className="list-link"><a href="register.html">Create Account</a></li>
                             </ul>
                             {/* <!-- footer-list --> */}
-                            <ul className="footer-list list-unstyled">
+                            <ul className={`footer-list list-unstyled ${(isFooterLinkOpen == 'Shopping')? 'open-list' : ''}`} onClick={() => openFooterLink('Shopping')}>
                                 <li className="list-title">Shopping</li>
                                 <li className="list-link"><a href="#">Domain Search</a></li>
                                 <li className="list-link"><a href="#">Websites</a></li>
@@ -113,9 +118,9 @@ export const Footer = (props) => {
                         <div className="content d-flex align-items-start mb-2">
                             {/* <!-- logo --> */}
                             <div className="logo mb-lg-0 mb-1">
-                                <a href="#">
+                                <Link to="/">
                                     <img src="/assets/images/templates/footer/logo-d.png" className="img-fluid" alt="TechX"/>
-                                </a>
+                                </Link>
                             </div>
                             {/* <!-- copyright --> */}
                             <div className="copyright mr-lg-5">
@@ -127,7 +132,7 @@ export const Footer = (props) => {
                                     <li><a href="#">License Agreements</a></li>
                                 </ul>
                                 {/* <!-- para-3 --> */}
-                                <p className="para-3">Copyright &copy; 2023, TechX All Rights Reserved. </p>
+                                <p className="para-3">TechX All Rights Reserved &copy; {(new Date().getFullYear())}. </p>
                             </div>
                             {/* <!-- social-list --> */}
                             <ul className="social-list list-unstyled d-flex align-items-center justify-content-lg-end justify-content-center ml-lg-auto mt-lg-0 mt-2">
