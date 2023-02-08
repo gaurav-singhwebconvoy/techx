@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   git init
 -   git checkout -b main
 -   git remote rm origin
--   git remote add origin https://"infosinghgaurav94%40gmail.com":"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"@github.com/gaurav-singhwebconvoy/techx.git
+-   git remote add origin https://"infosinghgaurav94%40gmail.com":"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"@github.com/gaurav-singhwebconvoy/techx.git
 -   git push --set-upstream origin main
 -   git pull origin main --allow-unrelated-histories
 -   git add .
